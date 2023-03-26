@@ -1,0 +1,507 @@
+/* reset */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+/* /reset */
+
+/* -----------стили которые повторяются----------- */
+h1 span,
+h2 span,
+a span {
+    color: #ff6838;
+}
+
+.title-section {
+    font-weight: 500;
+    font-size: 36px;
+    color: #363853;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+}
+
+.button-orange {
+    background-color: #ff6838;
+    color: #fff;
+}
+
+/* ------------------------------------------------*/
+
+body {
+    background-color: #e5e5e5;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Rubik", sans-serif;
+}
+
+.сontainer {
+    width: 100%;
+    max-width: 1260px;
+    padding: 0 30px 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a,
+button {
+    color: inherit;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+}
+
+/* header */
+
+.header {
+    padding-top: 67px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 60px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item a {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.menu__item a:hover {
+    color: #ff7a50;
+    transition: 1s;
+}
+
+.header___search {
+    margin-right: 63px;
+}
+
+.header___buy-num {
+    position: relative;
+    left: -10px;
+    top: -14px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #ff7a50;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.header-top__button {
+    padding: 14px 28px;
+    border-radius: 5px;
+}
+
+.header__images img {
+    width: 689px;
+    height: 681px;
+}
+
+.header__content {
+    display: flex;
+}
+
+.header__info {
+    max-width: 530px;
+    padding-top: 147px;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+    margin-bottom: 23px;
+}
+
+.header__button--explore {
+    padding: 12px 21px;
+    border-radius: 5px;
+    margin-right: 29px;
+}
+
+.header__button--download {
+    border-bottom: 1px solid #363853;
+}
+
+.header__texts {
+    margin-bottom: 44px;
+}
+
+/* -----------category*/
+.category {
+    padding-top: 124px;
+}
+
+.category__title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.category__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+
+.category__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 26px;
+    width: 210px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.category__item-orange {
+    background-color: #ff7a50;
+}
+
+.category__item img {
+    margin-right: 9px;
+    width: 44px;
+    height: 44px;
+}
+
+.category__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__card {
+    padding-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 208px;
+    background-color: #ffffff;
+    margin-top: auto;
+}
+
+.category__images {
+    margin-bottom: 29px;
+}
+
+.category__images img {
+    display: block;
+}
+
+.category__texts p {
+    font-size: 15px;
+}
+
+.category__texts span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.category__button {
+    border-radius: 2px;
+    padding: 7px 13px;
+}
+
+/* -------------delivery */
+
+.delivery {
+    padding-top: 87px;
+}
+
+.delivery__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery__info {
+    padding-top: 100px;
+    max-width: 449px;
+}
+
+.delivery__title {
+    margin-bottom: 30px;
+}
+
+.delivery__text {
+    margin-bottom: 14px;
+}
+
+.delivery__list {
+    margin-bottom: 52px;
+}
+
+.delivery__item {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.delivery__item img {
+    margin-right: 25px;
+}
+
+.delivery__item p {
+    text-transform: capitalize;
+}
+
+.delivery__button {
+    padding: 17px 44px;
+    border-radius: 30px 30px 1px 30px;
+}
+
+/* -------------restaurants */
+
+.restaurants {
+    padding-top: 128px;
+}
+
+.restaurants__title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.restaurants__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.restaurants__card {
+    width: 361px;
+    height: 417px;
+    margin-right: 43px;
+    margin-bottom: 43px;
+    padding-bottom: 22px;
+    background-color: #fff;
+    border-radius: 53px 5px;
+}
+
+.restaurants__card h4 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.restaurants__time {
+    display: flex;
+    align-items: center;
+}
+
+.restaurants__time-img {
+    margin-right: 9px;
+}
+
+.restaurants__time a {
+    margin-right: 30px;
+}
+
+/* ----------download */
+
+.download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 165px;
+}
+
+.download__info {
+    max-width: 538px;
+}
+
+.download__title {
+    margin-bottom: 30px;
+}
+
+.download__text {
+    margin-bottom: 30px;
+}
+
+/* -------reviews  */
+
+.reviews {
+    padding-top: 166px;
+}
+
+.reviews__title {
+    margin-bottom: 67px;
+    text-align: center;
+}
+
+.reviews__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviews__info {
+    width: 573px;
+    margin-bottom: 74px;
+}
+
+.reviews__text p {
+    margin-bottom: 74px;
+}
+
+.reviews__quote-left {
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+
+.reviews__quote-right {
+    position: relative;
+    top: 10px;
+}
+
+.reviews__feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews__name {
+    font-weight: 500;
+    color: #ff7a50;
+}
+
+.reviews__comment {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.reviews__name {
+    margin-bottom: 18px;
+}
+
+/* ---------subscription */
+.subscription {
+    padding-top: 125px;
+}
+
+.subscription__container {
+    padding: 59px 165px 56px 165px;
+    height: 312px;
+    background-color: #ff7a50;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription__info h2 {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.subscription__text {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.subscription__email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 70px;
+    padding: 9px 24px;
+}
+
+.subscription__email p {
+    color: #363853;
+}
+
+.subscription__subscribe {
+    padding: 15px 22px;
+    background-color: #ff7a50;
+    border-radius: 70px;
+    color: #ffffff;
+}
+
+/* -------------foooter */
+
+.footer__container {
+    padding: 100px 0 36px 0;
+}
+
+.footer__top {
+    border-bottom: 1px solid #969696;
+    padding-bottom: 25px;
+}
+
+.footer-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-list {
+    margin-right: 99px;
+}
+
+.footer__contacts {
+    margin-right: 10px;
+}
+
+.footer-list a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-list h4 {
+    margin-bottom: 20px;
+}
+
+.footer__images img {
+    margin-right: 13px;
+}
+
+.footer__bottom {
+    padding-top: 26px;
+    text-align: top;
+    display: flex;
+}
+
+.footer__text {
+    margin-right: 663px;
+}
+
+.footer__links a {
+    margin-right: 51px;
+}
